@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "variable": "ts-node variable",
+        "functions": "ts-node functions",
+        "array": "ts-node arrays"
+    }
+}
