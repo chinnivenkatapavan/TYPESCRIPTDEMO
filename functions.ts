@@ -7,8 +7,8 @@ console.log(result);
 
 //arrow function
 let add = (a:any,b:any) => {return a+b;};
-
 console.log(add("pavan","chinni"));
+
 
 let data = (userName:string,password?:string) => {
     console.log("UserName: ", userName);

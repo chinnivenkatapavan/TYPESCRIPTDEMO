@@ -22,13 +22,12 @@ array1.pop();
 console.log(`After pop: ${array}`);
 console.log(`After pop on 2: ${array1}`);
 
-//list
+//mixed array
 let personData:[string , number , number] = ["pavan",26,9010505612];
 console.log(personData);
 
 //set
 let setExample : Set<string> = new Set();
-
 //add
 setExample.add("a");
 setExample.add("b");
@@ -36,17 +35,14 @@ setExample.add("c");
 setExample.add("c");
 setExample.add("d");
 
-
-
 console.log(setExample);
 
 //delete
-//setExample.delete("c");
-
+setExample.delete("c");
 console.log("After delete",setExample);
 
+//Map
 let mapExample : Map<number,string> = new Map();
-
 //add elements
 mapExample.set(1,"chinni");
 mapExample.set(2,"venkat");

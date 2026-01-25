@@ -22,8 +22,8 @@ class Admin extends User {
 
 }
 
-//let user = new User("rohit");
-//user.getMethod();
+let user = new User("rohit");
+user.getMethod();
 
 let admin = new Admin("aaaaa");
 admin.admingetMethod();
